@@ -1,0 +1,50 @@
+{
+  "name": "boilerplatewebpack5",
+  "version": "1.0.0",
+  "description": "Webpack 5 project base structure, HTML Handlebars, SCSS, JS and Images",
+  "scripts": {
+    "dev": "webpack serve --config webpack.config.dev.js",
+    "build": "webpack --config webpack.config.prod.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/adrianocandrade/boilerplatewebpack5.git"
+  },
+  "keywords": [
+    "Webpack 5",
+    "webpack",
+    "Handlebars",
+    "html",
+    "scss",
+    "js"
+  ],
+  "author": {
+    "name": "Adriano Andrade",
+    "email": "contato@adrianoc.com.br",
+    "url": "https://www.adrianoc.com.br"
+  },
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/adrianocandrade/boilerplatewebpack5/issues"
+  },
+  "homepage": "https://github.com/adrianocandrade/boilerplatewebpack5#readme",
+  "devDependencies": {
+    "handlebars": "^4.7.8",
+    "handlebars-loader": "^1.7.3",
+    "handlebars-webpack-plugin": "^2.2.1",
+    "mini-css-extract-plugin": "^2.7.6",
+    "node-sass": "^9.0.0",
+    "optimize-css-assets-webpack-plugin": "^6.0.1",
+    "sass": "^1.67.0",
+    "sass-loader": "^13.3.2",
+    "style-loader": "^3.3.3",
+    "css-loader": "^6.8.1",
+    "file-loader": "^6.2.0",
+    "copy-webpack-plugin": "^11.0.0",
+    "fast-glob": "^3.3.1",
+    "terser-webpack-plugin": "^5.3.9",
+    "webpack": "^5.88.2",
+    "webpack-cli": "^5.1.4",
+    "webpack-dev-server": "^4.15.1"
+  }
+}

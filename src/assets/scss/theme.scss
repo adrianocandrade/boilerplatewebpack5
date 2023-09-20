@@ -1,0 +1,72 @@
+@import "./components/reset";
+@import "./components/helper/mixins";
+@import "./components/helper/spacing-helpers";
+@import "./components/variables";
+@import "./components/fonts";
+@import "./components/switch";
+
+body {
+  min-width: 375px;
+  @include fi;
+  font-size: 14px;
+  line-height: calc(24/14);
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  color: $text;
+  &.dark {
+    background: $dark;
+    color: $wh;
+  }
+}
+
+@include dark {
+  .apexcharts-tooltip.apexcharts-theme-light {
+    color: $text;
+  }
+
+  .apexcharts-gridlines-horizontal line {
+    stroke: $border-dark;
+  }
+
+  .logo-handlebars {
+    filter: brightness(0) invert(1);
+  }
+}
+
+.container {
+  text-align: center;
+}
+
+.logo {
+  img, object {
+    height: 150px;
+    display: inline-block;
+    margin: 0 10px;
+  }
+}
+
+h3 {
+  margin: 40px 0 0;
+}
+ul {
+  margin-top: 15px;
+}
+li {
+  display: inline-block;
+  margin: 0 10px;
+}
+a {
+  color: $purple;
+}
+
+
+.footer {
+  width: 100%;
+  margin: auto;
+  text-align: center;
+  margin-top: 50px;
+
+  p {
+    margin-bottom: 15px;
+  }
+}

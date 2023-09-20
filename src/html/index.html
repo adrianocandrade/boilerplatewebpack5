@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+  {{> header/head }}
+  <body id="body">
+    <div class="container m-t-75">
+      <!-- Navbar -->
+      {{> header/header }}
+
+      <!-- Main Content -->
+      <main>
+        <div class="hello">
+          <h1>{{ index.title }}</h1>
+          <p>
+            {{ index.description }}
+            <a href="{{ index.doc_link }}" target="_blank" rel="noopener"
+              >{{ index.doc_label }}</a
+            >.
+          </p>
+          {{> cards/card title=index.title_main_plugins data=index.main_plugins }}
+          {{> cards/card title=index.title_main_scss data=index.main_scss }}
+          {{> cards/card title=index.title_main_handlebars data=index.main_handlebars }}
+          {{> cards/card title=index.title_main_webpack data=index.main_webpack }}
+        </div>
+      </main>
+      <!-- /Main Content -->
+    </div>
+    <!-- Footer -->
+    {{> footer/footer }}
+  </body>
+</html>

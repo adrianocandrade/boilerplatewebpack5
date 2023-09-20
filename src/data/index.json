@@ -1,0 +1,82 @@
+{
+  "title": "Hello Boilerplate Webpack5!",
+  "description": "For a guide and recipes on how to configure / customize this project, check out the'",
+  "doc_link": "#",
+  "doc_label": "documentation",
+  "title_main_plugins": "Main installed plugins",
+  "main_plugins": [
+    {
+      "title": "Webpack",
+      "link": "https://webpack.js.org/"
+    },
+    {
+      "title": "Handlebars",
+      "link": "https://handlebarsjs.com/"
+    },
+    {
+      "title": "SASS",
+      "link": "https://sass-lang.com/"
+    }
+  ],
+  "title_main_scss": "Required plugins CSS/SCSS",
+  "main_scss": [
+    {
+      "title": "css-loader",
+      "link": "https://github.com/webpack-contrib/css-loader"
+    },
+    {
+      "title": "sass-loader",
+      "link": "https://github.com/webpack-contrib/sass-loader"
+    },
+    {
+      "title": "style-loader",
+      "link": "https://github.com/webpack-contrib/style-loader"
+    },
+    {
+      "title": "node-sass",
+      "link": "https://github.com/sass/node-sass"
+    },
+    {
+      "title": "optimize-css-assets-webpack-plugin",
+      "link": "https://github.com/NMFR/optimize-css-assets-webpack-plugin"
+    },
+    {
+      "title": "mini-css-extract-plugin",
+      "link": "https://github.com/webpack-contrib/mini-css-extract-plugin"
+    }
+  ],
+  "title_main_handlebars": "Required plugins Handlebars",
+  "main_handlebars": [
+    {
+      "title": "handlebars-loader",
+      "link": "https://github.com/pcardune/handlebars-loader"
+    },
+    {
+      "title": "handlebars-webpack-plugin",
+      "link": "https://github.com/sagold/handlebars-webpack-plugin"
+    }
+  ],
+  "title_main_webpack": "Required plugins WerbPack",
+  "main_webpack": [
+    {
+      "title": "copy-webpack-plugin",
+      "link": "https://github.com/webpack-contrib/copy-webpack-plugin"
+    },
+    {
+      "title": "fast-glob",
+      "link": "https://github.com/mrmlnc/fast-glob"
+    },
+    {
+      "title": "terser-webpack-plugin",
+      "link": "https://github.com/webpack-contrib/terser-webpack-plugin"
+    },
+    {
+      "title": "webpack-cli",
+      "link": "https://github.com/webpack/webpack-cli"
+    },
+    {
+      "title": "webpack-dev-server",
+      "link": "https://github.com/webpack/webpack-dev-server"
+    }
+  ]
+}
